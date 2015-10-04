@@ -12,18 +12,24 @@
 }
 
 #facebook-button {
-	color:#003399;
+	color:#E6FAFA;
 	margin:0 auto;
 	display:block;
 	margin-bottom: 10px;
-	background-color: #99CCFF;
+	background-color: #00CCCC;
+	position:absolute;
+	top:400px;
+	left:42%;
 }
 
 #google-button{
-	color:#003399;
+	color:#E6FAFA;
 	margin:0 auto;
 	display:block;
-	background-color: #99CCFF; 
+	background-color: #00CCCC; 
+	position:absolute;
+	top:350px;
+	left:42.8%;
 }
 
 
