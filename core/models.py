@@ -3,6 +3,7 @@ import datetime
 from django.db import models
 from django.utils import timezone
 
+
 class Tasks(models.Model):
     name = models.CharField(max_length=200)
     category = models.CharField(max_length=200)
@@ -19,20 +20,6 @@ class Rewards(models.Model):
     difficulty = models.CharField(max_length=200)
     start_time = models.DateTimeField()
     end_time = models.DateTimeField()
-
-    # May need later
-    #  def __str__(self):
-    #     return self.choice_text
-
-
-class Calendar(models.Model):
-    # somehow need to get this data from the data table and the tasks tabe--
-    # tasks table probs need to have all this data
-    name = models.CharField(max_length=200)
-    category = models.CharField(max_length=200)
-    start_time = models.DateTimeField()
-    end_time = models.DateTimeField()
-
 
 
 class Account(models.Model):
