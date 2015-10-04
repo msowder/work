@@ -1,38 +1,65 @@
 /* Home index CSS stylesheet */
 
-#title {
-	color:#00CCCC; 
-	position: relative;
-	font-size: 100px;
-	text-align: center;
+#life{
+	color:#FFFFFF;
+	font-size:130px;
+	position:absolute;
+	top:275px;
+	left:439px;
+	z-index: 1;
+	/*font-weight:300;*/
 }
 
 .info {
 	text-align: center;
 }
 
+#smallfix{
+	position:absolute;
+	left:596px;
+	top:275px;
+	background-color:#00CCCC;
+	z-index:0;
+}
+
+#balance {	
+	position:absolute;
+	left:252px;
+	top:28px;
+	z-index: -1;
+}
+
 #facebook-button {
-	color:#E6FAFA;
+	color:#E5E5E5;
 	margin:0 auto;
 	display:block;
 	margin-bottom: 10px;
-	background-color: #00CCCC;
+	background-color: #949494;
 	position:absolute;
-	top:400px;
-	left:42%;
+	top:375px;
+	left:338px;
 }
 
 #google-button{
-	color:#E6FAFA;
+	color:#E5E5E5;
 	margin:0 auto;
 	display:block;
-	background-color: #00CCCC; 
+	background-color: #949494; 
 	position:absolute;
-	top:350px;
-	left:42.8%;
+	top:375px;
+	left:550px;
 }
 
-
+#or{
+	font-size:16px;
+	color:#4C4C4C;
+	position:absolute;
+	top:381px;
+	left:521px;
+}
+body{
+	background-color: #00CCCC;
+}
 .homepage{
 	color:#00CCCC;
 	/*margin-bottom:100px;*/
