@@ -12,7 +12,6 @@ $('.welcome)
   .transition('tada')
 ;
 
-$('.small.modal')
-  .modal('show')
+$('.menu .item')
+  .tab()
 ;
-
