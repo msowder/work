@@ -1,39 +1,12 @@
-<!DOCTYPE html>
-<html>
+{% load staticfiles %}
+<!-- <label id="life-label">life.</label> -->
+<h1 id="welcome"> welcome back, Sohie.</h1>
+<!-- USER NAME AND PIC -->
+<img src="{% static 'polaroid.png' %}" style="width:280px;height:320px" id ="polaroid">
 
-	<head>
-		<link rel="stylesheet" href="../style/hellopagestyle.css">	
-		<link rel="stylesheet" type="text/css" href="../semantic/dist/semantic.min.css">
-		
-		<script src="myscripts.js"></script>
-		<script src="semantic/dist/semantic.min.js"></script>
+<div class="info" id="dateStatement" >today is October 4, 2015.</div>
+<div class="info" id="bankStatement" >you have 25 points in your account</div>
+<div class="info" id="taskStatement" >and you have 9 tasks scheduled for today.</div>
 
-		<title>home.</title>
-		
-	</head>
-
-	<body>
-		<!-- <label id="life-label">life.</label> -->
-		<h id="welcome"><b> welcome back, Sohie.</h></b>
-	<!-- USER NAME AND PIC -->
-	<img src="polaroid.png" style="width:280px;height:320px" id ="polaroid">
-	</div>
-		<!-- Panel? -->
-<!-- 		<div class="ui vertical text menu">
- 		 	<a class="item">Home</a>
-  			<a class="item">Tasks</a>
-  			<a class="item">Rewards</a>
-  			<a class="item">Calendar</a>
-  			<a class="item">Account</a>
-  			<a class="item">Settings</a>
-		</div>
- -->
-		<div class="info" id="dateStatement" ><b>today is October 4, 2015.</div></b>
-		<div class="info" id="bankStatement" ><b>you have 25 points in your account</div></b>
-		<div class="info" id="taskStatement" ><b>and you have 9 tasks scheduled for today.</div></b>
-		
-		<!-- LIFE. LOGO -->
-		<p id="lifeLogo"><b> life. </b></p>
-	</body>
-
-</html>
+<!-- LIFE. LOGO -->
+<p id="lifeLogo"><b> life. </b></p>
