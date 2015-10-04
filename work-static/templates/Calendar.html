@@ -3,28 +3,92 @@
 <body>
 
 <!-- user_name_input is a string but will eventually refer to another html file on the navigation bar where the student will enter their name -->
-<script>
-var user_name = 'user_name_input'
-</script>
+ <!--<script>
+// var user_name = 'user_name_input'
+// </script>-->
 
-<div id="header"> 
-<h1 align="center"><b>Name's embedded Google Calendar</b></h1>
+<!-- RANDOM BEGINNING STUFF -->
+	<head>
+		<link rel="stylesheet" type="text/css" href="../semantic/dist/semantic.min.css">
+		<link rel="stylesheet" type="text/css" href="../style/calendarstyle.css">	
+		
+		<script src="myscripts.js"></script>
+		<script src="semantic/dist/semantic.min.js"></script>
 
-<style>
-#header {
-    background-color:#00FFFF;
-    color:white;
-    text-align:center;
-    padding:5px;
-}
-</style>
-</div>
+		<title>calendar.</title>
+		<p>  </p>
+	</head>
+
+<!-- TOP HEADING ITEMS -->
+	<!-- TOP BACKGROUND -->
+	<div style="width:100%;height:103px;border:0px solid #000;" id ="top"></div>
+	<body>
+	
+	<!-- TASKS LABEL -->
+	<h id="calendar"> calendar.</h>
+
+	<!-- SIDE BAR -->
+	<!-- <div class="ui vertical text menu" id="sidebar">
+ 		<a class="item">Home</a>
+  		<a class="item">Tasks</a>
+  		<a class="item">Rewards</a>
+  		<a class="item">Calendar</a>
+  		<a class="item">Account</a>
+  		<a class="item">Settings</a>
+		</div> -->
+
+	<!-- BUTTON THINGIE -->
+	<div class="ui icon button" data-title="New Event" data-content= "ui form" id="addEvent" <i class="add icon"></i></div>
+
+	<!-- AESTHETIC BOX -->
+	<div style="width:620px;height:22px;border:0px solid #000;" id ="aestheticBox"></div>
+
+	<!-- LIFE. LOGO -->
+	<p id="lifeLogo"><b> life. </b></p>
+
+	<!-- USER NAME AND PIC -->
+	<img src="sohie.png" style="width:30px;height:28px" id ="sohie">
+	</div>
+
+	<p id="name">Sohie Lee</p>
+	<p id="bankNum">: 25 points</p>
+
 
 <p>
 	<div style="text-align: center;">
-	<iframe src="https://www.google.com/calendar/embed?src=wellesley.edu_adshmal6eq32q4hl2e82v05c7c%40group.calendar.google.com&ctz=America/New_York" style="border: 0" width="800" height="600"frameborder="0" scrolling="no">
+	<iframe id="googleCal" src="https://www.google.com/calendar/embed?src=wellesley.edu_adshmal6eq32q4hl2e82v05c7c%40group.calendar.google.com&ctz=America/New_York" style="border: 0" width="800" height="600"frameborder="0" scrolling="no">
 	</iframe></div>
 </p>
+
+<!-- FILTER PANEL -->
+<div style="width:175px;height:150%;border:0px;" id ="filter"></div> 
+<p id="refine"><b>Refine by</b></p>
+
+	<!-- CATEGORIES -->
+	<p id="category"><b>Category</b></p>
+
+	<p id="cat1"><b>Work</b></p>
+	<p id="cat2"><b>Social</b></p>
+	<p id="cat3"><b>Chores</b></p>
+	<p id="cat4"><b>Habits</b></p>
+	
+	<div style="width:15px;height:15px;border:0px;" id ="catbox1"></div> 
+	<div style="width:15px;height:15px;border:0px;" id ="catbox2"></div> 
+	<div style="width:15px;height:15px;border:0px;" id ="catbox3"></div> 
+	<div style="width:15px;height:15px;border:0px;" id ="catbox4"></div> 
+
+	<!-- DIFFICULTIES -->
+	<p id="difficulty"><b>Rewards</b></p>
+
+	<p id="diff1"><b>Event</b></p>
+	<p id="diff2"><b>Restaurant</b></p>
+	<p id="diff3"><b>Friends</b></p>
+	<p id="diff4"><b>Personal</b></p>
+	
+	<div style="width:15px;height:15px;border:0px;" id ="diffbox1"></div> 
+	<div style="width:15px;height:15px;border:0px;" id ="diffbox2"></div> 
+	<div style="width:15px;height:15px;border:0px;" id ="diffbox3"></div> 
+	<div style="width:15px;height:15px;border:0px;" id ="diffbox4"></div> 
 
 
 </body>
