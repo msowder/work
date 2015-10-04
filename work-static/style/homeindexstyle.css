@@ -5,7 +5,7 @@
 	font-size:130px;
 	position:absolute;
 	top:275px;
-	left:439px;
+	left:478px;
 	z-index: 1;
 	/*font-weight:300;*/
 }
@@ -16,7 +16,7 @@
 
 #smallfix{
 	position:absolute;
-	left:596px;
+	left:635px;
 	top:275px;
 	background-color:#00CCCC;
 	z-index:0;
@@ -24,7 +24,7 @@
 
 #balance {	
 	position:absolute;
-	left:252px;
+	left:291.2px;
 	top:28px;
 	z-index: -1;
 }
@@ -37,7 +37,7 @@
 	background-color: #949494;
 	position:absolute;
 	top:375px;
-	left:338px;
+	left:377px;
 }
 
 #google-button{
@@ -47,7 +47,7 @@
 	background-color: #949494; 
 	position:absolute;
 	top:375px;
-	left:550px;
+	left:589px;
 }
 
 #or{
@@ -55,7 +55,7 @@
 	color:#4C4C4C;
 	position:absolute;
 	top:381px;
-	left:521px;
+	left:560px;
 }
 body{
 	background-color: #00CCCC;
