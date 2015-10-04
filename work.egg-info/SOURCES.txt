@@ -1,0 +1,16 @@
+core/Calendar_events.py
+core/__init__.py
+core/admin.py
+core/models.py
+core/tests.py
+core/urls.py
+core/views.py
+work/__init__.py
+work/settings.py
+work/tests.py
+work/urls.py
+work/wsgi.py
+work.egg-info/PKG-INFO
+work.egg-info/SOURCES.txt
+work.egg-info/dependency_links.txt
+work.egg-info/top_level.txt
