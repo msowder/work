@@ -29,4 +29,3 @@ def get_account(request, question_id):
     latest_question_list = Tasks.objects.order_by('-pub_date')[:5]
     context = {'latest_question_list': latest_question_list}
     return render(request, '../work-static/templates/index.html', context)
-
