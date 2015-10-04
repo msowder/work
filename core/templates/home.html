@@ -1,26 +1,19 @@
 <!doctype html>
-{% load staticfiles %}
 <html lang="en">
     <head>
         <meta charset="utf-8">
         <title>jQuery UI Tabs - Content via Ajax</title>
-        <link rel="stylesheet" href="{% static 'style/style.css' %}">
-        <link rel="stylesheet" href="{% static 'jquery-ui/jquery-ui.min.css' %}">
-        <script src="{% static 'jquery-ui/external/jquery/jquery.js' %}"></script>
-        <script src="{% static 'jquery-ui/jquery-ui.min.js' %}"></script>
-        <link rel="stylesheet" href="{% static 'style/hellopagestyle.css' %}">
-        <link rel="stylesheet" type="text/css" href="{% static 'style/taskstyle.css' %}">
-		<link rel="stylesheet" type="text/css" href="{% static 'semantic/dist/semantic.min.css' %}">
-		<script src="{% static 'myscript.js' %}"></script>
-		<script src="{% static 'semantic/dist/semantic.min.js' %}"></script>
-        <link rel="stylesheet" type="text/css" href="{% static 'style/calendarstyle.css' %}">
+        <link rel="stylesheet" href="../style/style.css">
+        <link rel="stylesheet" href="../jquery-ui/jquery-ui.min.css">
+        <script src="../jquery-ui/external/jquery/jquery.js"></script>
+        <script src="../jquery-ui/jquery-ui.min.js"></script>
         <script>
           $(function() {
             $('.menu .item').tab();
           });
         </script>
-        <link rel="stylesheet" type="text/css" href="{% static 'semantic/dist/semantic.min.css' %}">
-        <script src="{% static 'semantic/dist/semantic.min.js' %}"></script>
+        <link rel="stylesheet" type="text/css" href="../semantic/dist/semantic.min.css">
+        <script src="../semantic/dist/semantic.min.js"></script>
     </head>
     <body>
 
@@ -32,18 +25,23 @@
         <a class="item" data-tab="tasks">Tasks</a>
         <a class="item" data-tab="rewards">Rewards</a>
         <a class="item" data-tab="calendar">Calendar</a>
+        <a class="item" data-tab="help">Help</a>
     </div>
     <div class="ui bottom attached active tab segment" data-tab="eva">
+        <a href="eva.html">Home</a>
         {% include 'eva.html' %}
     </div>
     <div class="ui bottom attached tab segment" data-tab="tasks">
-        {% include 'tasks.html' %}
+        <a href="tasks.html">Tasks</a>
     </div>
     <div class="ui bottom attached tab segment" data-tab="rewards">
         <a href="rewards.html">Rewards</a>
     </div>
     <div class="ui bottom attached tab segment" data-tab="calendar">
         <a href="Calendar.html">Calendar</a>
+    </div>
+    <div class="ui bottom attached tab segment" data-tab="help">
+        <a href="help.html">Help</a>
     </div>
 </body>
 </html>
