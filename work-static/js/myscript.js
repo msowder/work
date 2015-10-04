@@ -12,4 +12,7 @@ $('.welcome)
   .transition('tada')
 ;
 
+$('.small.modal')
+  .modal('show')
+;
 

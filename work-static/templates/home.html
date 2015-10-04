@@ -1,29 +1,45 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <link rel="stylesheet" href="../style/hellopagestyle.css">
+        <link rel="stylesheet" type="text/css" href="../semantic/dist/semantic.min.css">
 
-	<head>
-		<link rel="stylesheet" href="../style/hellopagestyle.css">	
-		<link rel="stylesheet" type="text/css" href="../semantic/dist/semantic.min.css">
-		
-		<script src="myscripts.js"></script>
+        <script src="myscripts.js"></script>
 
-		<title>life.</title>
-	</head>
-	<body>
-		<!-- <label id="life-label">life.</label> -->
-		<h id="welcome"> Welcome back, person!</h>
-		<!-- Panel? -->
-		<div class="ui vertical text menu">
- 		 	<a class="item">Home</a>
-  			<a class="item">Tasks</a>
-  			<a class="item">Rewards</a>
-  			<a class="item">Calendar</a>
-  			<a class="item">Account</a>
-  			<a class="item">Settings</a>
-		</div>
-		<div class="info">Today is this date.</div>
-		<div class="info">You have this number of points left.</div>
-		<div class="info">You have completed this many tasks.</div>
-	</body>
-	<script src="semantic/dist/semantic.min.js"></script>
+        <title>life.</title>
+    </head>
+    <body>
+        <!-- <label id="life-label">life.</label> -->
+        <h id="welcome"> Welcome back, person!</h>
+        <!-- Panel? -->
+        <div class="ui top attached tabular menu">
+            <a class="active item" data-tab="home">Home</a>
+            <a class="item" data-tab="tasks">Tasks</a>
+            <a class="item" data-tab="rewards">Rewards</a>
+            <a class="item" data-tab="calendar">Calendar</a>
+            <a class="item" data-tab="account">Account</a>
+            <a class="item" data-tab="help">Help</a>
+        </div>
+        <div class="ui bottom attached active tab segment" data-tab="home">
+            <div class="info">Today is this date.</div>
+            <div class="info">You have this number of points left.</div>
+            <div class="info">You have completed this many tasks.</div>
+        </div>
+        <div class="ui bottom attached tab segment" data-tab="tasks">
+            Tasks
+        </div>
+        <div class="ui bottom attached tab segment" data-tab="rewards">
+            Rewards
+        </div>
+        <div class="ui bottom attached tab segment" data-tab="calendar">
+            Calendar
+        </div>
+        <div class="ui bottom attached tab segment" data-tab="account">
+            Account
+        </div>
+        <div class="ui bottom attached tab segment" data-tab="help">
+            Help
+        </div>
+    </body>
+    <script src="semantic/dist/semantic.min.js"></script>
 </html>
