@@ -5,11 +5,28 @@
 	font-size:130px;
 	position:absolute;
 	top:275px;
-	left:42%;
+	left:439px;
+	z-index: 1;
+	/*font-weight:300;*/
 }
 
 .info {
 	text-align: center;
+}
+
+#smallfix{
+	position:absolute;
+	left:596px;
+	top:275px;
+	background-color:#00CCCC;
+	z-index:0;
+}
+
+#balance {	
+	position:absolute;
+	left:252px;
+	top:28px;
+	z-index: -1;
 }
 
 #facebook-button {
@@ -20,7 +37,7 @@
 	background-color: #949494;
 	position:absolute;
 	top:375px;
-	left:32%;
+	left:338px;
 }
 
 #google-button{
@@ -30,7 +47,7 @@
 	background-color: #949494; 
 	position:absolute;
 	top:375px;
-	left:53%;
+	left:550px;
 }
 
 #or{
@@ -38,7 +55,7 @@
 	color:#4C4C4C;
 	position:absolute;
 	top:381px;
-	left:49%;
+	left:521px;
 }
 body{
 	background-color: #00CCCC;
